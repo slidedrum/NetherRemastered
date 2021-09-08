@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_amethyst_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_coal_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_copper_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_deep_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_diamond_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_dripstone_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_emerald_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_gold_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_iron_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_lapis_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_lava_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_mossy_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_redstone_i"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherem:obby_water_i"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}
