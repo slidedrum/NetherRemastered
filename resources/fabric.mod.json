@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "netherem",
+  "version": "${version}",
+
+  "name": "Nether Remastered",
+  "description": "Overhauling how you get to the nether and back!",
+  "authors": [
+    "SlideDrum"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/netherem/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nether.remastered.main"
+    ]
+  },
+  "mixins": [
+    "mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
